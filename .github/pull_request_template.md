@@ -1,19 +1,14 @@
-# Jira ticket
+# Notes to be checked carefully(point out parts with complex logic, etc.)
 
-[Ticket](url)
+Replace it with description of parts that should be reviewed with a passion.
+Can be a reference to a snippet of code.
 
-# What needs to be noticed in the solution?
+**APIs:**
+- [ ] Used third party API
+- [ ] API response size/time checked (make sure you don't request excessive feed of data )
+- [ ] API response size/time optimized (you made changes on API to suit your needs)
 
-This section talks about the solution used in this PR.
+**Static content:** 
+- [ ] Used external resources (script/css/images/etc)
+- [ ] Static content size optimized (external optimization)
 
-# Comments for order of reviewing
-
-This is a note to the reviewer on how to review the PR.
-
-**Unit (mocha && chai):**
-- [ ] Not applicable
-- [ ] Done (added tests)
-
-**Selenium:** 
-- [ ] Not applicable
-- [ ] Done (added tests)
